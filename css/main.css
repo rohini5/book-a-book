@@ -12,7 +12,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #333;
+  color: white;
 }
 
 h2 {
@@ -87,7 +87,7 @@ a:hover {
 }
 
 section {
-  padding: 35px 0;
+  padding: 90px 0;
 }
 
 .heading {
@@ -116,8 +116,15 @@ section {
   margin-left: -15px;
   display: inline-block;
 }
-
-
+.highlight{
+  font-weight: bold;
+      font-size: 16px;
+    color: #7289a2;
+}
+.fa-star{
+  font-size: 17px;
+  margin-bottom: 17px;
+}
 /*************************
 ********Home CSS**********
 **************************/
@@ -272,7 +279,15 @@ section {
 /*************************
 ********Service CSS*******
 **************************/
-
+#services{
+  background-image: url(../images/service-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  color: white;
+      padding-bottom: 20px;
+    margin-bottom: 32px;
+}
 .service-icon {
   border-radius: 4px;
   color: #fff;
@@ -291,7 +306,6 @@ section {
 
 .our-services .col-sm-4 {
   border-right:1px solid #f2f2f2;
-  border-bottom:1px solid #f2f2f2;
   padding-bottom: 50px;
 }
 
@@ -315,7 +329,7 @@ section {
 }
 
 .size-adjust{
-  font-size: medium;
+  font-size: 17px;
 }
 /*************************
 ********About CSS*******
@@ -370,6 +384,9 @@ section {
   padding-top: 0;
 }
 
+#team h2{
+  color: black;
+}
 .team-members {
   margin-bottom: 25px;
 }
@@ -450,7 +467,9 @@ section {
   color: #999;
 
 }
-
+.team-adjust{
+  color: black;
+}
 
 /*************************
 *******Features CSS*******
@@ -458,6 +477,8 @@ section {
 #features {
   text-align: center;
   background-image: url(../images/features-bg.jpg);
+  padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 #features i {
@@ -470,10 +491,13 @@ section {
   margin-bottom: 7px;
   color: #fff;
 }
-
+#features p{
+  font-size: 20px;
+}
 #features .slider-overlay {
   opacity: 0.8;
 }
+
 
 /*************************
 **********Contact CSS*****
