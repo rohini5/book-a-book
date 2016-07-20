@@ -291,6 +291,9 @@ section {
       padding-bottom: 20px;
     margin-bottom: 7px;
 }
+#services img{
+  height: 95px;
+}
 .service-icon {
   border-radius: 4px;
   color: #fff;
@@ -301,6 +304,7 @@ section {
   width: 90px;  
   -webkit-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
+  background-color: transparent;
 }
 
 .our-services .col-sm-4:hover .service-icon {
