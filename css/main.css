@@ -489,6 +489,7 @@ section {
   background-image: url(../images/features-bg.jpg);
   padding-top: 5em;
     padding-bottom: 5em;
+        margin-top: 11px;
 }
 
 #features i {
